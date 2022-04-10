@@ -3,7 +3,7 @@
   "variables": {
     "do_api_token": "{{env `DIGITALOCEAN_TOKEN`}}",
     "image_name": "laravel-lemp-20-04-snapshot-{{timestamp}}",
-    "apt_packages": "fail2ban mysql-server redis-server memcached nginx php8.0-apcu php8.0-curl php8.0-mysql php8.0-fpm php8.0-gd php8.0-bcmath php8.0-gmp php8.0-intl php8.0-redis php8.0-memcached php8.0-simplexml php8.0-dom postfix mailutils supervisor python3-certbot-nginx software-properties-common",
+    "apt_packages": "fail2ban mysql-server redis-server memcached nginx php8.0-apcu php8.0-curl php8.0-mysql php8.0-fpm php8.0-gd php8.0-bcmath php8.0-gmp php8.0-intl php8.0-redis php8.0-memcached php8.0-simplexml php8.0-dom postfix mailutils supervisor python3-certbot-nginx unzip software-properties-common",
     "application_name": "LEMP",
     "application_version": ""
   },
