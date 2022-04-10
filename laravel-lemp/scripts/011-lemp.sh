@@ -10,3 +10,5 @@ rm -rf /var/www/html/index*debian.html
 chown -R www-data: /var/www
 
 sed -i 's/supervised no/supervised systemd/g' /etc/redis/redis.conf
+
+composer -n global require laravel/installer
