@@ -28,6 +28,8 @@ Create a `variables.json` file with your [Digital Ocean API token](https://cloud
 To build a Digital Ocean droplet snapshot in `nyc3`:
 
 ```shell
+brew upgrade packer
+packer plugins install github.com/digitalocean/digitalocean
 packer validate -var-file=variables.json laravel-lemp/template.json
 packer build -var-file=variables.json laravel-lemp/template.json
 ```
